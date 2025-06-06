@@ -904,6 +904,13 @@ input {
     display: none !important;
   }
 
+  .nav__list li:last-child {
+    padding-right: 1rem;
+  }
+  .nav__list li:first-child {
+  padding-left: 0.5rem;
+  }
+
   .home {
     padding-top: 5.25rem;
   }
@@ -973,6 +980,13 @@ input {
     row-gap: 2rem;
   }
 
+  .nav__list li:last-child {
+    padding-right: 1rem;
+  }
+  .nav__list li:first-child {
+  padding-left: 0.5rem;
+  }
+
   .project__data {
     padding: 2rem 1.25rem 1.5rem 1.25rem;
   }
@@ -1012,6 +1026,13 @@ input {
     margin-bottom: 0.1rem;
   }
 
+  .nav__list li:last-child {
+    padding-right: 1rem;
+  }
+  .nav__list li:first-child {
+  padding-left: 0.5rem;
+  }
+
   .project__categories {
     column-gap: 1.5rem;
   }
@@ -1044,13 +1065,32 @@ input {
     margin-left: calc(50% - 10rem);
   }
 
+  .nav__list {
+    padding: 0;
+  }
+
+  .nav__list li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
   .nav__link {
     font-size: 0.7rem;
     padding: 0.3rem 0;
+    text-align: center;
+    white-space: nowrap;
   }
 
   .nav__link i {
     font-size: 1rem;
+    margin-bottom: 0.15rem;
+  }
+  .nav__list li:last-child {
+    padding-right: 1rem;
+  }
+  .nav__list li:first-child {
+  padding-left: 0.5rem;
   }
 
   .awards__grid {

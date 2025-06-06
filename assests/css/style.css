@@ -967,9 +967,13 @@ input {
   }
 
   .contact__container,
-  .skills__container,
   .services__container {
     grid-template-columns: 1fr;
+  }
+
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
   }
 
   .skills__container {
@@ -1054,7 +1058,7 @@ input {
 
 @media screen and (max-width: 439px) {
   :root {
-    --fs-h1: 2rem;
+    --fs-h1: 1.75rem;
   }
 
   .home__img {
@@ -1113,7 +1117,7 @@ input {
 /* for small devices */
 @media screen and (max-width: 350px) {
   :root {
-    --fs-h1: 2rem;
+    --fs-h1: 1.5rem;
   }
 
   .nav__list {

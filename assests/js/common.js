@@ -7,12 +7,6 @@ function activeLink() {
 
 navlink.forEach((a) => a.addEventListener('click', activeLink));
 
-function scrollHeader() {
-  const header = document.getElementById("header");
-  if (this.scrollY >= 50) header.classList.add("scroll-header");
-  else header.classList.remove("scroll-header");
-}
-window.addEventListener("scroll", scrollHeader);
 
 document.addEventListener('DOMContentLoaded', () => {
   const toggleBtn = document.getElementById('toggle-awards');

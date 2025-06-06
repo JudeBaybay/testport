@@ -967,7 +967,7 @@ input {
   }
 
   .contact__container,
-  .services__container {
+  .skills__container{
     grid-template-columns: 1fr;
   }
 
